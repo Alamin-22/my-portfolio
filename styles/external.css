@@ -1,13 +1,16 @@
-*{ padding: 0px; margin: 0px ; font-family: font-family: 'Open Sans', sans-serif; ; }
+*{ padding: 0px; margin: 0px ; font-family:'Open Sans', sans-serif; }
 
 /* shared item */
 
-.btn{ padding: 10px 15px; border-radius: 5px; border: none; background-color: #FD6E0A; color: rgb(243, 241, 241); font-size: 30px;}
+.btn{ padding: 10px 15px; border-radius: 5px; border: none; background-color: #FD6E0A; color: rgb(243, 241, 241); font-size: 18px;}
 .btn > a{ text-decoration: none; color: #FFF8F3; }
 
-/* header section */
-header{background-color: #FFF8F3; background-image: url(../assets/images//header_bg.png); background-repeat: no-repeat; background-position: right bottom;   }
-.header{ display: flex; align-items: center ;justify-content: space-around; font-size: 30px;}
+/* header Nav section */
+
+header{border: 2px solid black; background-image: url(../assets/images/header_bg.png); background-repeat: no-repeat; background-position: right bottom; background-color: #FFF8F3; }
+
+
+.header{ display: flex; align-items: center ;justify-content: space-around; font-size: 30px; margin: 0px 100px; }
 
 .header > ul{ display: flex; padding: 20px; }
 
@@ -20,6 +23,18 @@ a:hover{ color:cadetblue;}
 
 #r{ color: #FD6E0A; }
 
-.heder-text{width: 50%;}
+/* banner section */
+.banner{ padding: 30px 30px 0px 130px; display: flex; align-items: center; justify-content: space-between; }
 
-.header-without-nav{ padding: 130px; margin: 20px; }
+.picture-of-hardy{ margin-right: 100px; width: 450px; height:  525px;}
+
+.banner-greetings{ padding: 5px; color: rgb(141, 130, 130);}
+
+.banner-tile{ padding: 5px; color:rgb(59, 55, 55); font-weight: 800; font-size: 25px; font-family: 'Open Sans', sans-serif ; }
+
+.banner-description{ padding: 5px; font-size: 18px; font-family: 'Open Sans', sans-serif; margin-bottom: 15px; }
+
+.t{padding: 5px; margin: 2px 10px 0px 25px ;}
+
+
+
